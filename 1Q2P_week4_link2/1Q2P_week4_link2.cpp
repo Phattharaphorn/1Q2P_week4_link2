@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
-int num[42];
-
-int main()
-{
+int main() {
+	int num[42];
 	int n, ans = 0;
 	memset(num, 0, sizeof(num));
 	for (int i = 0; i < 10; i++)
@@ -20,3 +18,4 @@ int main()
 	cout << ans;
 	return 0;
 }
+
